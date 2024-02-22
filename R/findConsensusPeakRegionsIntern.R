@@ -117,22 +117,22 @@ findConsensusPeakRegionsValidation <- function(narrowPeaks, peaks, chrList,
         }
 
         if(is.null(narrowPeaks$name) || is.null(peaks$name)) {
-            stop(paste0("narrowPeaks and peaks must have defined metadata ",
+            stop("narrowPeaks and peaks must have defined metadata ",
                         "name so that each narrowPeaks entry can be ",
-                        "associated to a peaks entry"))
+                        "associated to a peaks entry")
         }
 
         if(is.null(names(narrowPeaks)) || is.null(names(peaks))) {
-            stop(paste0("narrowPeaks and peaks must have defined row names ",
+            stop("narrowPeaks and peaks must have defined row names ",
                         "so that each entry can be associated to an ",
-                        "experiment"))
+                        "experiment")
         }
 
         if (!all(sort(narrowPeaks$name) == sort(peaks$name)) ||
                 !all(sort(names(narrowPeaks)) == sort(names(peaks)))) {
-            stop(paste0("All narrowPeaks entry must have an equivalent peaks ",
+            stop("All narrowPeaks entry must have an equivalent peaks ",
                         "entry recognizable by both an identical metadata ",
-                        "name and an identical row name"))
+                        "name and an identical row name")
         }
     }
 
