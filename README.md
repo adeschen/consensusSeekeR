@@ -1,7 +1,7 @@
 consensusSeekeR : Detection of consensus regions inside a group of experiments using genomic positions and genomic ranges
 =====================
 
-[![Build Status](https://travis-ci.org/ArnaudDroitLab/consensusSeekeR.svg?branch=master)](https://travis-ci.org/ArnaudDroitLab/consensusSeekeR)
+[![R-CMD-check-bioc](https://github.com/adeschen/consensusSeekeR/actions/workflows/check-bioc.yaml/badge.svg)](https://github.com/adeschen/consensusSeekeR/actions/workflows/check-bioc.yaml)
 [![codecov](https://codecov.io/gh/ArnaudDroitLab/consensusSeekeR/branch/master/graph/badge.svg)](https://codecov.io/gh/ArnaudDroitLab/consensusSeekeR)
 
 
