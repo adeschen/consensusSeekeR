@@ -58,24 +58,6 @@
     <loc>/reference/A549_NR3C1_CFS_Peaks_partial.html</loc>
   </url>
   <url>
-    <loc>/reference/consensusSeekeR-package.html</loc>
-  </url>
-  <url>
-    <loc>/reference/findConsensusPeakRegions.html</loc>
-  </url>
-  <url>
-    <loc>/reference/findConsensusPeakRegionsForOneChrom.html</loc>
-  </url>
-  <url>
-    <loc>/reference/findConsensusPeakRegionsValidation.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/isInteger.html</loc>
-  </url>
-  <url>
     <loc>/reference/NOrMAL_nucleosome_positions.html</loc>
   </url>
   <url>
@@ -92,6 +74,24 @@
   </url>
   <url>
     <loc>/reference/PING_nucleosome_ranges.html</loc>
+  </url>
+  <url>
+    <loc>/reference/consensusSeekeR-package.html</loc>
+  </url>
+  <url>
+    <loc>/reference/findConsensusPeakRegions.html</loc>
+  </url>
+  <url>
+    <loc>/reference/findConsensusPeakRegionsForOneChrom.html</loc>
+  </url>
+  <url>
+    <loc>/reference/findConsensusPeakRegionsValidation.html</loc>
+  </url>
+  <url>
+    <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/isInteger.html</loc>
   </url>
   <url>
     <loc>/reference/readNarrowPeakFile.html</loc>
