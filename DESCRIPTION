@@ -7,9 +7,7 @@ Description: This package compares genomic positions and genomic ranges from
     multiple experiments to extract common regions. The size of the analyzed region
     is adjustable as well as the number of experiences in which a feature must be
     present in a potential region to tag this region as a consensus region.
-Author: Astrid Deschenes [cre, aut], Fabien Claude Lamaze [ctb], Pascal Belleau
-    [aut], Arnaud Droit [aut]
-Author@R: c(person("Astrid", "Deschenes", email="adeschen@hotmail.com", 
+Authors@R: c(person("Astrid", "Deschenes", email="adeschen@hotmail.com", 
     role=c("cre","aut")), person("Fabien Claude", "Lamaze", 
     email="fabien.lamaze.1@ulaval.ca", role=c("ctb")),
     person("Pascal", "Belleau", email="pascal_belleau@hotmail.com",
@@ -40,5 +38,4 @@ VignetteBuilder: knitr
 NeedsCompilation: no
 biocViews: BiologicalQuestion, ChIPSeq, Genetics, MultipleComparison,
     Transcription, PeakDetection, Sequencing, Coverage
-Maintainer: Astrid Deschenes <adeschen@hotmail.com>
 RoxygenNote: 7.0.2
