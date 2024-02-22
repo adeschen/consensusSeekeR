@@ -305,7 +305,7 @@ findConsensusPeakRegionsForOneChrom <- function(chrName, allPeaks,
         # The current position of the last peak present in a selected region
         maxUsedPosition <- 0L
 
-        for (pos in 1:length(peaks)) {
+        for (pos in seq_len(length(peaks))) {
 
             # Only process peak not already present in retained regions
             if (pos <= maxUsedPosition) next
@@ -408,8 +408,8 @@ findConsensusPeakRegionsForOneChrom <- function(chrName, allPeaks,
         regions <- GRanges()
     } else {
         regions <- GRanges(seqnames = rep(chrName, nbrRegions),
-                            IRanges(start = regionsStartPos[1:nbrRegions],
-                            end = regionsEndPos[1:nbrRegions]))
+                        IRanges(start = regionsStartPos[seq_len(nbrRegions)],
+                            end = regionsEndPos[seq_len(nbrRegions)]))
     }
 
     return(regions)

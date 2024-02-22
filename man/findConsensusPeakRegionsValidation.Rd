@@ -5,8 +5,16 @@
 \title{Parameter validation for the \code{\link{findConsensusPeakRegions}}
 function}
 \usage{
-findConsensusPeakRegionsValidation(narrowPeaks, peaks, chrList, extendingSize,
-  expandToFitPeakRegion, shrinkToFitPeakRegion, minNbrExp, nbrThreads)
+findConsensusPeakRegionsValidation(
+  narrowPeaks,
+  peaks,
+  chrList,
+  extendingSize,
+  expandToFitPeakRegion,
+  shrinkToFitPeakRegion,
+  minNbrExp,
+  nbrThreads
+)
 }
 \arguments{
 \item{narrowPeaks}{a \code{GRanges} representing called peaks of signal

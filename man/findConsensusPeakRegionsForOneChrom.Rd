@@ -5,9 +5,16 @@
 \title{Extract regions sharing features in more than one experiment for
 one specific chromosome.}
 \usage{
-findConsensusPeakRegionsForOneChrom(chrName, allPeaks, allNarrowPeaks,
-  extendingSize, expandToFitPeakRegion, shrinkToFitPeakRegion, minNbrExp,
-  chrList)
+findConsensusPeakRegionsForOneChrom(
+  chrName,
+  allPeaks,
+  allNarrowPeaks,
+  extendingSize,
+  expandToFitPeakRegion,
+  shrinkToFitPeakRegion,
+  minNbrExp,
+  chrList
+)
 }
 \arguments{
 \item{chrName}{a \code{character}, the name of the chromosome to analyze.}

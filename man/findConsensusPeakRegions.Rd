@@ -4,9 +4,16 @@
 \alias{findConsensusPeakRegions}
 \title{Extract regions sharing features in more than one experiment}
 \usage{
-findConsensusPeakRegions(narrowPeaks, peaks, chrInfo, extendingSize = 250,
-  expandToFitPeakRegion = FALSE, shrinkToFitPeakRegion = FALSE,
-  minNbrExp = 1L, nbrThreads = 1L)
+findConsensusPeakRegions(
+  narrowPeaks,
+  peaks,
+  chrInfo,
+  extendingSize = 250,
+  expandToFitPeakRegion = FALSE,
+  shrinkToFitPeakRegion = FALSE,
+  minNbrExp = 1L,
+  nbrThreads = 1L
+)
 }
 \arguments{
 \item{narrowPeaks}{a \code{GRanges} containing
