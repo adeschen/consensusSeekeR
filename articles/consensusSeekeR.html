@@ -69,7 +69,7 @@
       <h1 data-toc-skip>Detection of consensus regions inside a group of
 experiments</h1>
                         <h4 data-toc-skip class="author">Astrid
-Deschenes, Fabien Claude Lamaze, Pascal Belleau and Arnaud Droit</h4>
+Deschênes, Fabien Claude Lamaze, Pascal Belleau and Arnaud Droit</h4>
             
             <h4 data-toc-skip class="date">22 February, 2024</h4>
       
@@ -81,9 +81,16 @@ Deschenes, Fabien Claude Lamaze, Pascal Belleau and Arnaud Droit</h4>
     
         <div class="abstract">
       <p class="abstract">Abstract</p>
-      The consensusSeekeR package is designed to detect consensus
-      regions inside a group of experiments using genomic positions and
-      genomic ranges.
+      This package compares genomic positions and genomic ranges from
+      multiple experiments to extract common regions. The size of the
+      analyzed region is adjustable as well as the number of experiences
+      in which a feature must be present in a potential region to tag
+      this region as a consensus region. In genomic analysis where
+      feature identification generates a position value surrounded by a
+      genomic range, such as ChIP-Seq peaks and nucleosome positions,
+      the replication of an experiment may result in slight differences
+      between predicted values. This package enables the conciliation of
+      the results into consensus regions.
     </div>
     
 <script type="text/javascript">
