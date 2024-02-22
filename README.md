@@ -3,6 +3,7 @@ consensusSeekeR : Detection of consensus regions inside a group of experiments u
 
 [![R-CMD-check-bioc](https://github.com/adeschen/consensusSeekeR/actions/workflows/check-bioc.yaml/badge.svg)](https://github.com/adeschen/consensusSeekeR/actions/workflows/check-bioc.yaml)
 [![codecov](https://codecov.io/gh/ArnaudDroitLab/consensusSeekeR/branch/master/graph/badge.svg)](https://codecov.io/gh/ArnaudDroitLab/consensusSeekeR)
+[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
 
 
 This R package compares multiple narrowPeak data from different experiments to extract common peak regions. 
