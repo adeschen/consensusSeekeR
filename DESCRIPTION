@@ -32,8 +32,8 @@ Suggests:
     rmarkdown,
     RUnit
 License: Artistic-2.0
-URL: https://github.com/ArnaudDroitLab/consensusSeekeR
-BugReports: https://github.com/ArnaudDroitLab/consensusSeekeR/issues
+URL: https://github.com/adeschen/consensusSeekeR
+BugReports: https://github.com/adeschen/consensusSeekeR/issues
 VignetteBuilder: knitr
 NeedsCompilation: no
 biocViews: BiologicalQuestion, ChIPSeq, Genetics, MultipleComparison,
