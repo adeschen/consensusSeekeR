@@ -43,9 +43,10 @@
 #' ## To access region data (GRanges format)
 #' head(data$narrowPeak)
 #'
-#' @author Astrid Deschenes
+#' @author Astrid Deschênes
 #' @import BiocGenerics S4Vectors IRanges GenomicRanges
 #' @importFrom rtracklayer import
+#' @encoding UTF-8
 #' @export
 readNarrowPeakFile<- function(file_path, extractRegions = TRUE,
                                 extractPeaks = TRUE) {

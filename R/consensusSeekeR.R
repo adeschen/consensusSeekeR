@@ -12,7 +12,7 @@
 #'
 #' @aliases consensusSeekeR-package consensusSeekeR
 #'
-#' @author  Astrid Deschenes,
+#' @author  Astrid Deschênes,
 #' Fabien Claude Lamaze,
 #' Pascal Belleau and
 #' Arnaud Droit

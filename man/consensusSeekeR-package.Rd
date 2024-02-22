@@ -22,7 +22,7 @@ sharing the same features in more than one experiment. }
 }
 }
 \author{
-Astrid Deschenes,
+Astrid Deschênes,
 Fabien Claude Lamaze,
 Pascal Belleau and
 Arnaud Droit
