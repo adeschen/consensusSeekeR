@@ -36,11 +36,7 @@ If you use this package for a publication, we would ask you to cite the followin
 [Pascal Belleau](http://ca.linkedin.com/in/pascalbelleau 
 "Pascal Belleau") 
 and [Arnaud Droit](http://ca.linkedin.com/in/drarnaud 
-"Arnaud Droit").
-
-See [Arnaud Droit Lab](http://compbio.ulaval.ca/ 
-"Arnaud Droit Lab") website.
-
+"Arnaud Droit")
 
 ## Maintainer ##
 
