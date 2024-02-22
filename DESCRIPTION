@@ -12,7 +12,7 @@ Description: This package compares genomic positions and genomic ranges from
     peaks and nucleosome positions, the replication of an experiment may result 
     in slight differences between predicted values. This package enables the 
     conciliation of the results into consensus regions.
-Authors@R: c(person("Astrid", "Deschenes", email="adeschen@hotmail.com", 
+Authors@R: c(person("Astrid", "Deschênes", email="adeschen@hotmail.com", 
     role=c("cre","aut"), comment=c(ORCID="0000-0001-7846-6749")), 
     person("Fabien Claude", "Lamaze", email="fabien.lamaze.1@ulaval.ca", 
     role=c("ctb")),
@@ -39,10 +39,11 @@ Suggests:
     rmarkdown,
     RUnit
 License: Artistic-2.0
+Encoding: UTF-8
 URL: https://github.com/adeschen/consensusSeekeR
 BugReports: https://github.com/adeschen/consensusSeekeR/issues
 VignetteBuilder: knitr
 NeedsCompilation: no
 biocViews: BiologicalQuestion, ChIPSeq, Genetics, MultipleComparison,
     Transcription, PeakDetection, Sequencing, Coverage
-RoxygenNote: 7.0.2
+RoxygenNote: 7.2.3

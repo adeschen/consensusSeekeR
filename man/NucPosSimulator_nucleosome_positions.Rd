@@ -6,9 +6,11 @@
 \title{Nucleosome positions detected by the NucPosSimulator software using
 syntetic reads generated using a normal distribution.
 For demonstration purpose.}
-\format{A \code{GRanges} containing one entry per detected
+\format{
+A \code{GRanges} containing one entry per detected
 nucleosome. The surronding ranges associated to those nucleosomes are in
-the dataset \code{NucPosSimulator_nucleosome_ranges}.}
+the dataset \code{NucPosSimulator_nucleosome_ranges}.
+}
 \usage{
 data(NucPosSimulator_nucleosome_positions)
 }

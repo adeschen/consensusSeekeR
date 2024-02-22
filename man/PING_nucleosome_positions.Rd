@@ -6,9 +6,11 @@
 \title{Nucleosome positions detected by the PING software using
 syntetic reads generated using a normal distribution.
 For demonstration purpose.}
-\format{A \code{GRanges} containing one entry per detected
+\format{
+A \code{GRanges} containing one entry per detected
 nucleosome. The surronding ranges associated to those nucleosomes are in
-the dataset \code{PING_nucleosome_positions}.}
+the dataset \code{PING_nucleosome_positions}.
+}
 \usage{
 data(PING_nucleosome_positions)
 }

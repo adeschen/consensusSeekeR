@@ -5,9 +5,11 @@
 \alias{A549_FOSL2_01_Peaks_partial}
 \title{Sites with the greatest evidence of transcription factor binding
 for the FOSL2 transcription factor (for demonstration purpose)}
-\format{A \code{GRanges} containing one entry per site. Each row
+\format{
+A \code{GRanges} containing one entry per site. Each row
 of \code{GRanges} has the same row name which represent the name
-of the experiment.}
+of the experiment.
+}
 \source{
 The Encyclopedia of DNA Elements (ENCODE) (DCC accession:
 ENCFF000MZT)

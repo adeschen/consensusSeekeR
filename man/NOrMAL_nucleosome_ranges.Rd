@@ -6,10 +6,12 @@
 \title{Ranges associated to nucleosomes detected by the NOrMAL software using
 syntetic reads generated using a normal distribution.
 For demonstration purpose.}
-\format{A \code{GRanges} containing one entry per detected
+\format{
+A \code{GRanges} containing one entry per detected
 nucleosome. The ranges are surronding the nucleosomes present in the dataset
 \code{NOrMAL_nucleosome_positions}. The genomic ranges have been obtained by
-adding 73 bps on each side of the detected positions.}
+adding 73 bps on each side of the detected positions.
+}
 \usage{
 data(NOrMAL_nucleosome_ranges)
 }

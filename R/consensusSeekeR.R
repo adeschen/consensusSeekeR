@@ -18,7 +18,7 @@
 #' Arnaud Droit
 #'
 #' Maintainer:
-#' Astrid Deschenes <adeschen@@hotmail.com>
+#' Astrid Deschênes <adeschen@hotmail.com>
 #'
 #' @seealso
 #' \itemize{
@@ -28,6 +28,7 @@
 #' sharing the same features in more than one experiment. }
 #' }
 #'
+#' @encoding UTF-8
 #' @keywords package
 NULL
 

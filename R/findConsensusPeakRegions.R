@@ -82,7 +82,6 @@
 #' consensus regions.
 #' }
 #'
-#' @author Astrid Deschenes
 #' @import BiocGenerics IRanges GenomeInfoDb GenomicRanges
 #' @importFrom stringr str_split
 #' @importFrom BiocParallel bplapply SnowParam SerialParam
@@ -128,6 +127,8 @@
 #' head(results$consensusRanges, 2)
 #'
 #' @importFrom GenomicRanges split
+#' @author Astrid Deschênes
+#' @encoding UTF-8
 #' @export
 findConsensusPeakRegions <- function(narrowPeaks, peaks, chrInfo,
                                 extendingSize = 250,

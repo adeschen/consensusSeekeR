@@ -5,7 +5,9 @@
 \alias{A549_CTCF_MYN_NarrowPeaks_partial}
 \title{Sites with the greatest evidence of transcription factor binding
 for the CTCF transcription factor (for demonstration purpose)}
-\format{A \code{GRanges} containing one entry per site.}
+\format{
+A \code{GRanges} containing one entry per site.
+}
 \source{
 The Encyclopedia of DNA Elements (ENCODE) (DCC accession:
 ENCFF000MYN)

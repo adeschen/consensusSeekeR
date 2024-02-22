@@ -74,9 +74,10 @@
 #'     minNbrExp = 2,
 #'     nbrThreads = 1)
 #'
-#' @author Astrid Deschenes
+#' @author Astrid Deschênes
 #' @import GenomeInfoDb
 #' @importFrom methods is
+#' @encoding UTF-8
 #' @keywords internal
 findConsensusPeakRegionsValidation <- function(narrowPeaks, peaks, chrList,
             extendingSize, expandToFitPeakRegion, shrinkToFitPeakRegion,
@@ -157,10 +158,10 @@ findConsensusPeakRegionsValidation <- function(narrowPeaks, peaks, chrList,
     }
 
     if (minNbrExp > length(unique(names(peaks)))) {
-        stop(paste0("minNbrExp must be inferior or equal to the number ",
+        stop("minNbrExp must be inferior or equal to the number ",
                     "of experiments presents in peaks. The number of",
                     "experiments is known by the number of differents ",
-                    "row names in peaks."))
+                    "row names in peaks.")
     }
 
     if (!isInteger(nbrThreads) || nbrThreads < 1 ) {
@@ -183,7 +184,8 @@ findConsensusPeakRegionsValidation <- function(narrowPeaks, peaks, chrList,
 #'
 #' @return \code{TRUE} is the parameter is a integer; otherwise \code{FALSE}
 #'
-#' @author Astrid Deschenes
+#' @author Astrid Deschênes
+#' @encoding UTF-8
 #' @keywords internal
 isInteger <- function(value) {
     result <- length(value) == 1
@@ -244,9 +246,10 @@ isInteger <- function(value) {
 #'
 #' @return an object of \code{class} "commonFeatures".
 #'
-#' @author Astrid Deschenes
+#' @author Astrid Deschênes
 #' @import BiocGenerics IRanges GenomeInfoDb GenomicRanges
 #' @importFrom stringr str_split
+#' @encoding UTF-8
 #' @keywords internal
 findConsensusPeakRegionsForOneChrom <- function(chrName, allPeaks,
                                                 allNarrowPeaks, extendingSize,
@@ -448,8 +451,9 @@ findConsensusPeakRegionsForOneChrom <- function(chrName, allPeaks,
 #'
 #' @return an object of \code{class} "commonFeatures".
 #'
-#' @author Astrid Deschenes
+#' @author Astrid Deschênes
 #' @import BiocGenerics IRanges GenomicRanges
+#' @encoding UTF-8
 #' @keywords internal
 refineRegion <- function(peaks, setPeaks, extendingSize,
                                 region_width, currentPeak) {

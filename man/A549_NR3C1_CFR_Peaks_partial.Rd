@@ -6,9 +6,11 @@
 \title{Sites with the greatest evidence of transcription factor binding
 for the NR3C1 transcription factor from ENCODE (DDC accession: ENCFF002CFR).
 For demonstration purpose.}
-\format{A \code{GRanges} containing one entry per site. The peaks are
+\format{
+A \code{GRanges} containing one entry per site. The peaks are
 surronded by ranges present in the dataset
-\code{A549_NR3C1_CFR_NarrowPeaks_partial}.}
+\code{A549_NR3C1_CFR_NarrowPeaks_partial}.
+}
 \source{
 The Encyclopedia of DNA Elements (ENCODE) (DCC accession:
 ENCFF002CFR)

@@ -5,8 +5,10 @@
 \alias{A549_FOSL2_01_NarrowPeaks_partial}
 \title{Genomic regions with the greatest evidence of transcription factor binding
 for the FOSL2 transcription factor (for demonstration purpose)}
-\format{A \code{GRanges} containing one entry per genomic regions. Each row
-of \code{GRanges} has a name which represent the name of the experiment.}
+\format{
+A \code{GRanges} containing one entry per genomic regions. Each row
+of \code{GRanges} has a name which represent the name of the experiment.
+}
 \source{
 The Encyclopedia of DNA Elements (ENCODE) (DCC accession:
 ENCFF000MZT)

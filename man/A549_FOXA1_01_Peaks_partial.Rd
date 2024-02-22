@@ -5,9 +5,11 @@
 \alias{A549_FOXA1_01_Peaks_partial}
 \title{Sites with the greatest evidence of transcription factor binding
 for the FOXA1 transcription factor (for demonstration purpose)}
-\format{A \code{GRanges} containing one entry per site
+\format{
+A \code{GRanges} containing one entry per site
 . Each row of \code{GRanges} has a name which represent the name of
-the experiment.}
+the experiment.
+}
 \source{
 The Encyclopedia of DNA Elements (ENCODE) (DCC accession:
 ENCFF000NAH)
