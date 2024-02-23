@@ -145,7 +145,7 @@ findConsensusPeakRegions <- function(narrowPeaks, peaks, chrInfo,
             minNbrExp, nbrThreads)
 
     # Change minNbrExp to integer
-    minNbrExp = as.integer(minNbrExp)
+    minNbrExp <- as.integer(minNbrExp)
 
     # Select the type of object used for parallel processing
     nbrThreads <- as.integer(nbrThreads)
