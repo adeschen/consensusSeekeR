@@ -3,7 +3,7 @@
 export(findConsensusPeakRegions)
 export(readNarrowPeakFile)
 import(BiocGenerics)
-import(GenomeInfoDb)
+import(Seqinfo)
 import(GenomicRanges)
 import(IRanges)
 import(S4Vectors)

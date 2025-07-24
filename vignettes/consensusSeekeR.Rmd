@@ -211,11 +211,11 @@ do not exceed the length of the chromosomes.
 
 The chromosomes information is contained inside a `Seqinfo` object. The 
 information from some UCSC genomes can be fetched automatically using
-the `r Biocpkg("GenomeInfoDb")` package. 
+the `r Biocpkg("Seqinfo")` package. 
 
 ```{r knownGenome, collapse=TRUE, eval=FALSE}
 ### Import library
-library(GenomeInfoDb)
+library(Seqinfo)
 
 ### Get the information for Human genome version 19
 hg19Info <- Seqinfo(genome="hg19")

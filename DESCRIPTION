@@ -1,6 +1,6 @@
 Package: consensusSeekeR
-Version: 1.37.0
-Date: 2021-11-20
+Version: 1.37.1
+Date: 2025-07-24
 Title: Detection of consensus regions inside a group of experiences using
     genomic positions and genomic ranges
 Description: This package compares genomic positions and genomic ranges from
@@ -27,7 +27,7 @@ Depends:
     GenomicRanges,
     BiocParallel
 Imports:
-    GenomeInfoDb,
+    Seqinfo,
     rtracklayer,
     stringr,
     S4Vectors,
