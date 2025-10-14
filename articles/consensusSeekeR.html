@@ -6,20 +6,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Detection of consensus regions inside a group of experiments • consensusSeekeR</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
+<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../bootstrap-toc.css">
 <script src="../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../pkgdown.css" rel="stylesheet">
 <script src="../pkgdown.js"></script><meta property="og:title" content="Detection of consensus regions inside a group of experiments">
-<meta property="og:description" content="consensusSeekeR">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
-    
+
 
     <div class="container template-article">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -50,7 +49,7 @@
 <li>
   <a href="https://github.com/adeschen/consensusSeekeR/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
-     
+
   </a>
 </li>
       </ul>
@@ -61,7 +60,7 @@
 </div>
 <!--/.navbar -->
 
-      
+
 
       </header><div class="row">
   <div class="col-md-9 contents">
@@ -71,9 +70,9 @@ experiments</h1>
                         <h4 data-toc-skip class="author">Astrid
 Deschênes, Fabien Claude Lamaze, Pascal Belleau and Arnaud Droit</h4>
             
-            <h4 data-toc-skip class="date">23 February, 2024</h4>
+            <h4 data-toc-skip class="date">14 October, 2025</h4>
       
-      <small class="dont-index">Source: <a href="https://github.com/adeschen/consensusSeekeR/blob/HEAD/vignettes/consensusSeekeR.Rmd" class="external-link"><code>vignettes/consensusSeekeR.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/adeschen/consensusSeekeR/blob/master/vignettes/consensusSeekeR.Rmd" class="external-link"><code>vignettes/consensusSeekeR.Rmd</code></a></small>
       <div class="hidden name"><code>consensusSeekeR.Rmd</code></div>
 
     </div>
@@ -108,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <div class="section level2">
 <h2 id="licensing-and-citing">Licensing and citing<a class="anchor" aria-label="anchor" href="#licensing-and-citing"></a>
 </h2>
-<p>This package and the underlying <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>This package and the underlying <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 code are distributed under the Artistic license 2.0. You are free to use
 and redistribute this software.</p>
 <p>If you use this package for a publication, we would ask you to cite
@@ -131,9 +130,9 @@ range of positions or a single position on the sequence. Genomic related
 data integration is made possible by treating the data as ranges on the
 genome <span class="citation">(Lawrence et al. 2013)</span>.
 Bioconductor has developed an infrastructure, including packages such as
-<em><a href="https://bioconductor.org/packages/3.15/GenomicRanges" class="external-link">GenomicRanges</a></em>,
-<em><a href="https://bioconductor.org/packages/3.15/IRanges" class="external-link">IRanges</a></em>
-and <em><a href="https://bioconductor.org/packages/3.15/GenomicFeatures" class="external-link">GenomicFeatures</a></em>,
+<em><a href="https://bioconductor.org/packages/3.21/GenomicRanges" class="external-link">GenomicRanges</a></em>,
+<em><a href="https://bioconductor.org/packages/3.21/IRanges" class="external-link">IRanges</a></em>
+and <em><a href="https://bioconductor.org/packages/3.21/GenomicFeatures" class="external-link">GenomicFeatures</a></em>,
 which facilitate the integrative statistical analysis of range-based
 genomic data.</p>
 <p>Ranges format is a convenient way for the analysis of diffent
@@ -162,11 +161,11 @@ peak is a genomic feature that can be defined by a position value (the
 peak position) and a genome range (the enriched region). This example
 shows that the peak position is not necessarily at the center of the
 enriched region.</p>
-<div class="figure">
-<img src="figures/peak_and_region.jpg" alt=""><p class="caption">Two ChIP-Seq peaks. A ChIP-seq peak is defined by a
-enriched region an a peak position.</p>
+<div class="float">
+<img src="figures/peak_and_region.jpg" alt="Two ChIP-Seq peaks. A ChIP-seq peak is defined by a enriched region an a peak position."><div class="figcaption">Two ChIP-Seq peaks. A ChIP-seq peak is defined
+by a enriched region an a peak position.</div>
 </div>
-<p>The <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package implements a novative way to identify consensus which use the
 features positions, instead of the most commonly used genomic
 ranges.</p>
@@ -174,10 +173,10 @@ ranges.</p>
 <div class="section level2">
 <h2 id="the-consensusseeker-package">The consensusSeekeR package<a class="anchor" aria-label="anchor" href="#the-consensusseeker-package"></a>
 </h2>
-<p>The <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package implements a novative way to identify consensus ranges in a
 group of experiments which generated position values surrounded by
-genomic ranges. The <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+genomic ranges. The <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package is characterized by its use of the position values, instead of
 the genomic ranges, to identify the consensus regions. The positions
 values have the double advantages of being, most of the time, the most
@@ -207,7 +206,7 @@ account during the extension step.</p>
 <div class="section level2">
 <h2 id="loading-consensusseeker-package">Loading consensusSeekeR package<a class="anchor" aria-label="anchor" href="#loading-consensusseeker-package"></a>
 </h2>
-<p>As with any R package, the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>As with any R package, the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package should first be loaded with the following command:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/adeschen/consensusSeekeR" class="external-link">consensusSeekeR</a></span><span class="op">)</span></span></code></pre></div>
@@ -218,7 +217,7 @@ package should first be loaded with the following command:</p>
 <div class="section level3">
 <h3 id="positions-and-ranges">Positions and Ranges<a class="anchor" aria-label="anchor" href="#positions-and-ranges"></a>
 </h3>
-<p>The main function of the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The main function of the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 is <code>findConsensusPeakRegions</code>. The mains inputs of the
 <code>findConsensusPeakRegions</code> function are:</p>
 <ol style="list-style-type: decimal">
@@ -281,7 +280,7 @@ easily be created and row names can be assigned:</p>
 consensus regions do not exceed the length of the chromosomes.</p>
 <p>The chromosomes information is contained inside a
 <code>Seqinfo</code> object. The information from some UCSC genomes can
-be fetched automatically using the <em><a href="https://bioconductor.org/packages/3.15/GenomeInfoDb" class="external-link">GenomeInfoDb</a></em>
+be fetched automatically using the <em><a href="https://bioconductor.org/packages/3.21/GenomeInfoDb" class="external-link">GenomeInfoDb</a></em>
 package.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">### Import library</span></span>
@@ -305,10 +304,10 @@ chromosomes information specific to the analyzed genome.</p>
 <h2 id="read-narrowpeak-files">Read NarrowPeak files<a class="anchor" aria-label="anchor" href="#read-narrowpeak-files"></a>
 </h2>
 <p>The NarrowPeak format is often used to provide called peaks of signal
-enrichment based on pooled, normalized data. The <em><a href="https://bioconductor.org/packages/3.15/rtracklayer" class="external-link">rtracklayer</a></em>
+enrichment based on pooled, normalized data. The <em><a href="https://bioconductor.org/packages/3.21/rtracklayer" class="external-link">rtracklayer</a></em>
 package has functions which faciliates the loading of NarrowPeak
 files.</p>
-<p>Since the main function of the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>Since the main function of the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package needs 2 <code>GRanges</code> objects, some manipulations are
 needed to create one <code>GRanges</code> for the regions and one
 <code>GRanges</code> for the peaks.</p>
@@ -358,7 +357,7 @@ needed to create one <code>GRanges</code> for the regions and one
 <span><span class="co">##   -------</span></span>
 <span><span class="co">##   seqinfo: 2 sequences from an unspecified genome; no seqlengths</span></span></code></pre></div>
 <p>A simpler way is to use the <code>readNarrowPeakFile</code> function
-of the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+of the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package which generates both the peaks and the narrowPeak
 <code>GRanges</code>.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
@@ -408,8 +407,7 @@ bps of DNA and connected to its neighbor by approximately 10-80 pbs of
 linker DNA <span class="citation">(Kornberg and Lorch 1999)</span>.
 Nucleosome occupancy and positioning have been proved to be dynamic. It
 also has a major impact on expression, regulation, and evolution of
-eukaryotic genes <span class="citation">(Jiang, Zhang, and Zhang
-2015)</span>.</p>
+eukaryotic genes <span class="citation">(Jiang et al. 2015)</span>.</p>
 <div class="section level3">
 <h3 id="comparing-nucleosome-positioning-results-from-different-software">Comparing nucleosome positioning results from different
 software<a class="anchor" aria-label="anchor" href="#comparing-nucleosome-positioning-results-from-different-software"></a>
@@ -422,20 +420,22 @@ al. 2013)</span> and NOrMAL <span class="citation">(Polishko et al.
 2012)</span>, generates output which contains the positions of the
 predicted nucleosomes, which simply are one base pair positions on the
 reference genome. This position represents the center of the predicted
-nucleosome. A range of <span class="math inline">\(\pm\)</span> 73 bps
-is usually superposed to the predicted nucleosome to repesent the
+nucleosome. A range of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>±</mi><annotation encoding="application/x-tex">\pm</annotation></semantics></math>
+73 bps is usually superposed to the predicted nucleosome to repesent the
 nucleosome occupancy.</p>
-<p>First, the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>First, the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package must be loaded.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/adeschen/consensusSeekeR" class="external-link">consensusSeekeR</a></span><span class="op">)</span></span></code></pre></div>
-<p>The datasets, which are included in the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The datasets, which are included in the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package, have to be loaded. Those include results obtained using
 syntethic reads distributed following a normal distribution with a
 variance of 20 from three different nucleosome positioning software:
 PING <span class="citation">(Woo et al. 2013)</span>, NOrMAL <span class="citation">(Polishko et al. 2012)</span> and NucPosSimulator <span class="citation">(Schöpflin et al. 2013)</span>. The genomic ranges have
-been obtained by adding <span class="math inline">\(\pm\)</span> 73 bps
-to the detected positions.</p>
+been obtained by adding
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>±</mi><annotation encoding="application/x-tex">\pm</annotation></semantics></math>
+73 bps to the detected positions.</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">### Loading dataset from NOrMAL</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">NOrMAL_nucleosome_positions</span><span class="op">)</span> ; <span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">NOrMAL_nucleosome_ranges</span><span class="op">)</span></span>
@@ -567,9 +567,9 @@ matched call while the object <code>consensusRanges</code> is a
 <p>A total of 27 consensus regions have been found. An exemple of the
 consensus regions (in dark blue) is shown in Figure
 @ref(fig:nucleosomes) using Integrative genomics viewer <span class="citation">(Robinson et al. 2011)</span>:</p>
-<div class="figure">
-<img src="figures/nucleosomes.jpg" alt=""><p class="caption">Consensus regions. The consensus regions obtained for
-peaks called from three software on the same dataset.</p>
+<div class="float">
+<img src="figures/nucleosomes.jpg" alt="Consensus regions. The consensus regions obtained for peaks called from three software on the same dataset."><div class="figcaption">Consensus regions. The consensus regions
+obtained for peaks called from three software on the same dataset.</div>
 </div>
 </div>
 </div>
@@ -586,9 +586,9 @@ experiments <span class="citation">(Landt and Marinov 2012)</span>.</p>
 parallel DNA sequencing. The obtained sequence reads are first mapped to
 the reference genome of the organism used in the experiments. Binding
 sites are then detected using software specialized in transcript factor
-binding sites identification, such as MACS2 <span class="citation">(Zhang et al. 2008)</span> and PeakRanger <span class="citation">(Feng, Grossman, and Stein 2011)</span>. Peaks are
-defined as a single base pair position while statistically enriched
-regions are defined as genomic ranges.</p>
+binding sites identification, such as MACS2 <span class="citation">(Zhang et al. 2008)</span> and PeakRanger <span class="citation">(Feng et al. 2011)</span>. Peaks are defined as a
+single base pair position while statistically enriched regions are
+defined as genomic ranges.</p>
 <div class="section level3">
 <h3 id="chip-seq-replicates-from-one-experiment">ChIP-Seq replicates from one experiment<a class="anchor" aria-label="anchor" href="#chip-seq-replicates-from-one-experiment"></a>
 </h3>
@@ -603,7 +603,7 @@ generally generates a peak position and an enriched region for each
 binding site. However, it is quite unlikely that the exact peak position
 is exactly the same across replicates. Even more, there is not yet a
 consensus on how to analyze multiple-replicate ChIP-seq samples <span class="citation">(Yang et al. 2014)</span>.</p>
-<p>The <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package can be used to identify consensus regions for two or more
 replicates ChIP-Seq samples. The consensus regions are being found by
 using the peak positions.</p>
@@ -616,11 +616,11 @@ parameters and the q-value set to 0.05.</p>
 <p>To simplify this demo, only part of genome hg19,
 chr1:246000000-249250621 and chr10:10000000-12500000, have been retained
 in the datasets.</p>
-<p>First, the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>First, the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package must be loaded.</p>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/adeschen/consensusSeekeR" class="external-link">consensusSeekeR</a></span><span class="op">)</span></span></code></pre></div>
-<p>The datasets, which are included in the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The datasets, which are included in the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package, have to be loaded.</p>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">### Loading datasets</span></span>
@@ -689,14 +689,15 @@ matched call while the object <code>conesensusRanges</code> is a
 consensus regions (in green) is shown in Figure @ref(fig:ctcf), using
 Integrative genomics viewer <span class="citation">(Robinson et al.
 2011)</span>.</p>
-<div class="figure">
-<img src="figures/ctcf_consensus.jpg" alt=""><p class="caption">One consensus region for 2 ChIP-Seq replicates.</p>
+<div class="float">
+<img src="figures/ctcf_consensus.jpg" alt="One consensus region for 2 ChIP-Seq replicates."><div class="figcaption">One consensus region for 2 ChIP-Seq
+replicates.</div>
 </div>
 </div>
 <div class="section level3">
 <h3 id="chip-seq-data-from-multiple-experiments">ChIP-Seq data from multiple experiments<a class="anchor" aria-label="anchor" href="#chip-seq-data-from-multiple-experiments"></a>
 </h3>
-<p>The <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package can also be used to identify consensus regions for two or more
 ChIP-Seq samples from multiple experiments. The peak positions are the
 feature used to identify the consensus regions.</p>
@@ -710,11 +711,11 @@ et al. 2012)</span>.</p>
 <p>To simplify this demo, only part of genome hg19,
 chr2:40000000-50000000 and chr3:10000000-13000000, have been retained in
 the datasets.</p>
-<p>First, the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>First, the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package must be loaded.</p>
 <div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/adeschen/consensusSeekeR" class="external-link">consensusSeekeR</a></span><span class="op">)</span></span></code></pre></div>
-<p>The datasets, which are included in the <em><a href="https://bioconductor.org/packages/3.15/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
+<p>The datasets, which are included in the <em><a href="https://bioconductor.org/packages/3.21/consensusSeekeR" class="external-link">consensusSeekeR</a></em>
 package, have to be loaded.</p>
 <div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">### Loading datasets</span></span>
@@ -826,9 +827,9 @@ matched call while the object <code>consensusRanges</code> is a
 consensus regions (in green) is shown in Figure @ref(fig:NR3C1) using
 Integrative genomics viewer <span class="citation">(Robinson et al.
 2011)</span>.</p>
-<div class="figure">
-<img src="figures/NR3C1_consensus.jpg" alt=""><p class="caption">Consensus regions. The consensus regions obtained for
-peaks called for 3 NR2C1 ChIP-Seq experiments.</p>
+<div class="float">
+<img src="figures/NR3C1_consensus.jpg" alt="Consensus regions. The consensus regions obtained for peaks called for 3 NR2C1 ChIP-Seq experiments."><div class="figcaption">Consensus regions. The consensus regions
+obtained for peaks called for 3 NR2C1 ChIP-Seq experiments.</div>
 </div>
 </div>
 </div>
@@ -849,8 +850,9 @@ quite visible on the final consensus regions. For exemple, Figure
 color) and to <code>FALSE</code> (orange color) using Integrative
 genomics viewer <span class="citation">(Robinson et al.
 2011)</span>.</p>
-<div class="figure">
-<img src="figures/shrink.jpg" alt=""><p class="caption">Effect of the shrinkToFitPeakRegion parameter.</p>
+<div class="float">
+<img src="figures/shrink.jpg" alt="Effect of the shrinkToFitPeakRegion parameter."><div class="figcaption">Effect of the shrinkToFitPeakRegion
+parameter.</div>
 </div>
 </div>
 <div class="section level3">
@@ -865,8 +867,9 @@ figure shows the same region, from the CTCF example with
 <code>extendingSize</code> of 100, when the
 <code>shrinkToFitPeakRegion</code> is set to <code>FALSE</code> (orange
 color) and to <code>TRUE</code> (green color).</p>
-<div class="figure">
-<img src="figures/extendNew.jpg" alt=""><p class="caption">Effect of the expandToFitPeakRegion parameter.</p>
+<div class="float">
+<img src="figures/extendNew.jpg" alt="Effect of the expandToFitPeakRegion parameter."><div class="figcaption">Effect of the expandToFitPeakRegion
+parameter.</div>
 </div>
 </div>
 <div class="section level3">
@@ -915,8 +918,8 @@ parameter (see Figure @ref(fig:sizeEffectG)).</p>
 <span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_smooth.html" class="external-link">stat_smooth</a></span><span class="op">(</span>se <span class="op">=</span> <span class="cn">FALSE</span>, method <span class="op">=</span> <span class="st">"loess"</span>, size<span class="op">=</span><span class="fl">1.4</span><span class="op">)</span> <span class="op">+</span></span>
 <span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">ylab</a></span><span class="op">(</span><span class="st">"Number of consensus regions"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">ggtitle</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="st">"Number of consensus regions in function of the extendingSize"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
-<div class="figure">
-<img src="figures/sizeEffect.jpg" alt=""><p class="caption">Effect of the extendingSize parameter.</p>
+<div class="float">
+<img src="figures/sizeEffect.jpg" alt="Effect of the extendingSize parameter."><div class="figcaption">Effect of the extendingSize parameter.</div>
 </div>
 </div>
 </div>
@@ -970,13 +973,13 @@ total execution time. The number of threads used can be set with the
 </h2>
 <p>Here is the output of <code><a href="https://rdrr.io/r/utils/sessionInfo.html" class="external-link">sessionInfo()</a></code> on the system on
 which this document was compiled:</p>
-<pre><code><span><span class="co">## R version 4.2.1 (2022-06-23)</span></span>
-<span><span class="co">## Platform: x86_64-pc-linux-gnu (64-bit)</span></span>
-<span><span class="co">## Running under: Ubuntu 20.04.4 LTS</span></span>
+<pre><code><span><span class="co">## R version 4.5.1 (2025-06-13)</span></span>
+<span><span class="co">## Platform: x86_64-pc-linux-gnu</span></span>
+<span><span class="co">## Running under: Ubuntu 24.04.3 LTS</span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## Matrix products: default</span></span>
-<span><span class="co">## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3</span></span>
-<span><span class="co">## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/liblapack.so.3</span></span>
+<span><span class="co">## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 </span></span>
+<span><span class="co">## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.26.so;  LAPACK version 3.12.0</span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## locale:</span></span>
 <span><span class="co">##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              </span></span>
@@ -986,54 +989,57 @@ which this document was compiled:</p>
 <span><span class="co">##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            </span></span>
 <span><span class="co">## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       </span></span>
 <span><span class="co">## </span></span>
+<span><span class="co">## time zone: UTC</span></span>
+<span><span class="co">## tzcode source: system (glibc)</span></span>
+<span><span class="co">## </span></span>
 <span><span class="co">## attached base packages:</span></span>
 <span><span class="co">## [1] stats4    stats     graphics  grDevices utils     datasets  methods  </span></span>
 <span><span class="co">## [8] base     </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## other attached packages:</span></span>
-<span><span class="co">##  [1] rtracklayer_1.56.1     consensusSeekeR_1.31.2 BiocParallel_1.30.4   </span></span>
-<span><span class="co">##  [4] GenomicRanges_1.48.0   GenomeInfoDb_1.32.4    IRanges_2.30.1        </span></span>
-<span><span class="co">##  [7] S4Vectors_0.34.0       BiocGenerics_0.42.0    knitr_1.45            </span></span>
-<span><span class="co">## [10] BiocStyle_2.24.0      </span></span>
+<span><span class="co">##  [1] rtracklayer_1.68.0     consensusSeekeR_1.31.2 BiocParallel_1.42.2   </span></span>
+<span><span class="co">##  [4] GenomicRanges_1.60.0   GenomeInfoDb_1.44.3    IRanges_2.42.0        </span></span>
+<span><span class="co">##  [7] S4Vectors_0.46.0       BiocGenerics_0.54.1    generics_0.1.4        </span></span>
+<span><span class="co">## [10] knitr_1.50             BiocStyle_2.36.0      </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## loaded via a namespace (and not attached):</span></span>
-<span><span class="co">##  [1] SummarizedExperiment_1.26.1 xfun_0.42                  </span></span>
-<span><span class="co">##  [3] bslib_0.6.1                 purrr_1.0.2                </span></span>
-<span><span class="co">##  [5] lattice_0.22-5              vctrs_0.6.5                </span></span>
-<span><span class="co">##  [7] htmltools_0.5.7             yaml_2.3.8                 </span></span>
-<span><span class="co">##  [9] XML_3.99-0.16.1             rlang_1.1.3                </span></span>
-<span><span class="co">## [11] pkgdown_2.0.7               jquerylib_0.1.4            </span></span>
-<span><span class="co">## [13] glue_1.7.0                  matrixStats_1.2.0          </span></span>
-<span><span class="co">## [15] GenomeInfoDbData_1.2.8      lifecycle_1.0.4            </span></span>
-<span><span class="co">## [17] MatrixGenerics_1.8.1        stringr_1.5.1              </span></span>
-<span><span class="co">## [19] zlibbioc_1.42.0             Biostrings_2.64.1          </span></span>
-<span><span class="co">## [21] ragg_1.2.7                  codetools_0.2-19           </span></span>
-<span><span class="co">## [23] memoise_2.0.1               evaluate_0.23              </span></span>
-<span><span class="co">## [25] restfulr_0.0.15             Biobase_2.56.0             </span></span>
-<span><span class="co">## [27] fastmap_1.1.1               parallel_4.2.1             </span></span>
-<span><span class="co">## [29] highr_0.10                  BiocManager_1.30.22        </span></span>
-<span><span class="co">## [31] DelayedArray_0.22.0         cachem_1.0.8               </span></span>
-<span><span class="co">## [33] desc_1.4.3                  jsonlite_1.8.8             </span></span>
-<span><span class="co">## [35] XVector_0.36.0              systemfonts_1.0.5          </span></span>
-<span><span class="co">## [37] fs_1.6.3                    Rsamtools_2.12.0           </span></span>
-<span><span class="co">## [39] textshaping_0.3.7           rjson_0.2.21               </span></span>
-<span><span class="co">## [41] digest_0.6.34               stringi_1.8.3              </span></span>
-<span><span class="co">## [43] bookdown_0.37               grid_4.2.1                 </span></span>
-<span><span class="co">## [45] BiocIO_1.6.0                cli_3.6.2                  </span></span>
-<span><span class="co">## [47] tools_4.2.1                 bitops_1.0-7               </span></span>
-<span><span class="co">## [49] magrittr_2.0.3              sass_0.4.8                 </span></span>
-<span><span class="co">## [51] RCurl_1.98-1.14             crayon_1.5.2               </span></span>
-<span><span class="co">## [53] Matrix_1.6-5                rmarkdown_2.25             </span></span>
-<span><span class="co">## [55] R6_2.5.1                    GenomicAlignments_1.32.1   </span></span>
-<span><span class="co">## [57] compiler_4.2.1</span></span></code></pre>
+<span><span class="co">##  [1] SummarizedExperiment_1.38.1 rjson_0.2.23               </span></span>
+<span><span class="co">##  [3] xfun_0.53                   bslib_0.9.0                </span></span>
+<span><span class="co">##  [5] htmlwidgets_1.6.4           Biobase_2.68.0             </span></span>
+<span><span class="co">##  [7] lattice_0.22-7              tools_4.5.1                </span></span>
+<span><span class="co">##  [9] bitops_1.0-9                curl_7.0.0                 </span></span>
+<span><span class="co">## [11] parallel_4.5.1              Matrix_1.7-4               </span></span>
+<span><span class="co">## [13] desc_1.4.3                  lifecycle_1.0.4            </span></span>
+<span><span class="co">## [15] GenomeInfoDbData_1.2.14     compiler_4.5.1             </span></span>
+<span><span class="co">## [17] stringr_1.5.2               Rsamtools_2.24.1           </span></span>
+<span><span class="co">## [19] textshaping_1.0.4           Biostrings_2.76.0          </span></span>
+<span><span class="co">## [21] codetools_0.2-20            htmltools_0.5.8.1          </span></span>
+<span><span class="co">## [23] sass_0.4.10                 RCurl_1.98-1.17            </span></span>
+<span><span class="co">## [25] yaml_2.3.10                 pkgdown_2.1.3              </span></span>
+<span><span class="co">## [27] crayon_1.5.3                jquerylib_0.1.4            </span></span>
+<span><span class="co">## [29] cachem_1.1.0                DelayedArray_0.34.1        </span></span>
+<span><span class="co">## [31] abind_1.4-8                 digest_0.6.37              </span></span>
+<span><span class="co">## [33] stringi_1.8.7               restfulr_0.0.16            </span></span>
+<span><span class="co">## [35] bookdown_0.45               fastmap_1.2.0              </span></span>
+<span><span class="co">## [37] grid_4.5.1                  cli_3.6.5                  </span></span>
+<span><span class="co">## [39] SparseArray_1.8.1           magrittr_2.0.4             </span></span>
+<span><span class="co">## [41] S4Arrays_1.8.1              XML_3.99-0.19              </span></span>
+<span><span class="co">## [43] UCSC.utils_1.4.0            rmarkdown_2.30             </span></span>
+<span><span class="co">## [45] XVector_0.48.0              httr_1.4.7                 </span></span>
+<span><span class="co">## [47] matrixStats_1.5.0           ragg_1.5.0                 </span></span>
+<span><span class="co">## [49] evaluate_1.0.5              BiocIO_1.18.0              </span></span>
+<span><span class="co">## [51] rlang_1.1.6                 glue_1.8.0                 </span></span>
+<span><span class="co">## [53] BiocManager_1.30.26         jsonlite_2.0.0             </span></span>
+<span><span class="co">## [55] R6_2.6.1                    MatrixGenerics_1.20.0      </span></span>
+<span><span class="co">## [57] GenomicAlignments_1.44.0    systemfonts_1.3.1          </span></span>
+<span><span class="co">## [59] fs_1.6.6</span></span></code></pre>
 </div>
 <div class="section level2">
 <h2 class="unnumbered" id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
 </h2>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Dunham2012a" class="csl-entry">
-Dunham, Ian, Anshul Kundaje, Shelley F. Aldred, Patrick J. Collins,
-Carrie A. Davis, Francis Doyle, Charles B. Epstein, et al. 2012.
+Dunham, Ian, Anshul Kundaje, Shelley F. Aldred, et al. 2012.
 <span>“<span class="nocase">An integrated encyclopedia of DNA elements
 in the human genome</span>.”</span> <em>Nature</em> 489 (7414): 57–74.
 <a href="https://doi.org/10.1038/nature11247" class="external-link">https://doi.org/10.1038/nature11247</a>.
@@ -1055,12 +1061,11 @@ of the eukaryote chromosome</span>.”</span> <em>Cell</em> 98 (3):
 <div id="ref-Landt2012" class="csl-entry">
 Landt, Sg, and Gk Marinov. 2012. <span>“<span class="nocase">ChIP-seq
 guidelines and practices of the ENCODE and modENCODE
-consortia</span>.”</span> <em>Genome Res.</em>, no. Park 2009: 1813–31.
+consortia</span>.”</span> <em>Genome Res.</em>, nos. Park 2009: 1813–31.
 <a href="https://doi.org/10.1101/gr.136184.111." class="external-link">https://doi.org/10.1101/gr.136184.111.</a>
 </div>
 <div id="ref-Lawrence2013" class="csl-entry">
-Lawrence, Michael, Wolfgang Huber, Hervé Pagès, Patrick Aboyoun, Marc
-Carlson, Robert Gentleman, Martin T. Morgan, and Vincent J. Carey. 2013.
+Lawrence, Michael, Wolfgang Huber, Hervé Pagès, et al. 2013.
 <span>“<span class="nocase">Software for Computing and Annotating
 Genomic Ranges</span>.”</span> <em>PLoS Computational Biology</em> 9
 (8). <a href="https://doi.org/10.1371/journal.pcbi.1003118" class="external-link">https://doi.org/10.1371/journal.pcbi.1003118</a>.
@@ -1085,8 +1090,7 @@ positioning using a modified Gaussian mixture model</span>.”</span>
 <em>Bioinformatics</em> 28 (12): 242–49. <a href="https://doi.org/10.1093/bioinformatics/bts206" class="external-link">https://doi.org/10.1093/bioinformatics/bts206</a>.
 </div>
 <div id="ref-Interests2011" class="csl-entry">
-Robinson, James T., Thorvaldsdóttir Helga, Wendy Winckler, Mitchell
-Guttman, Eric S. Lander, Gad Getz, and Jill P. Mesirov. 2011.
+Robinson, James T., Thorvaldsdóttir Helga, Wendy Winckler, et al. 2011.
 <span>“<span class="nocase">Integrative genomics viewer</span>.”</span>
 <em>Nature Biotechnology</em> 29 (1): 24–26. <a href="https://doi.org/10.1038/nbt0111-24" class="external-link">https://doi.org/10.1038/nbt0111-24</a>.
 </div>
@@ -1104,14 +1108,12 @@ sequencing data</span>.”</span> <em>Bioinformatics</em> 29 (16):
 2049–50. <a href="https://doi.org/10.1093/bioinformatics/btt348" class="external-link">https://doi.org/10.1093/bioinformatics/btt348</a>.
 </div>
 <div id="ref-Yang2014" class="csl-entry">
-Yang, Yajie, Justin Fear, Jianhong Hu, Irina Haecker, Lei Zhou, Rolf
-Renne, David Bloom, and Lauren M McIntyre. 2014. <span>“<span class="nocase">Leveraging biological replicates to improve analysis in
+Yang, Yajie, Justin Fear, Jianhong Hu, et al. 2014. <span>“<span class="nocase">Leveraging biological replicates to improve analysis in
 ChIP-seq experiments.</span>”</span> <em>Computational and Structural
 Biotechnology Journal</em> 9: e201401002. <a href="https://doi.org/10.5936/csbj.201401002" class="external-link">https://doi.org/10.5936/csbj.201401002</a>.
 </div>
 <div id="ref-Zhang2008" class="csl-entry">
-Zhang, Yong, Tao Liu, Clifford a Meyer, Jérôme Eeckhoute, David S
-Johnson, Bradley E Bernstein, Chad Nusbaum, et al. 2008. <span>“<span class="nocase">Model-based analysis of ChIP-Seq (MACS).</span>”</span>
+Zhang, Yong, Tao Liu, Clifford a Meyer, et al. 2008. <span>“<span class="nocase">Model-based analysis of ChIP-Seq (MACS).</span>”</span>
 <em>Genome Biology</em> 9 (9): R137. <a href="https://doi.org/10.1186/gb-2008-9-9-r137" class="external-link">https://doi.org/10.1186/gb-2008-9-9-r137</a>.
 </div>
 </div>
@@ -1120,9 +1122,7 @@ Johnson, Bradley E Bernstein, Chad Nusbaum, et al. 2008. <span>“<span class="n
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
 
-        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
-    </nav>
-</div>
+      </div>
 
 </div>
 
@@ -1135,16 +1135,16 @@ Johnson, Bradley E Bernstein, Chad Nusbaum, et al. 2008. <span>“<span class="n
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
 </div>
 
       </footer>
 </div>
 
-  
 
 
-  
+
+
 
   </body>
 </html>

@@ -1,102 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/articles/consensusSeekeR.html</loc>
-  </url>
-  <url>
-    <loc>/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_CTCF_MYJ_NarrowPeaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_CTCF_MYJ_Peaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_CTCF_MYN_NarrowPeaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_CTCF_MYN_Peaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_FOSL2_01_NarrowPeaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_FOSL2_01_Peaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_FOXA1_01_NarrowPeaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_FOXA1_01_Peaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_NR3C1_CFQ_NarrowPeaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_NR3C1_CFQ_Peaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_NR3C1_CFR_NarrowPeaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_NR3C1_CFR_Peaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_NR3C1_CFS_NarrowPeaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/A549_NR3C1_CFS_Peaks_partial.html</loc>
-  </url>
-  <url>
-    <loc>/reference/NOrMAL_nucleosome_positions.html</loc>
-  </url>
-  <url>
-    <loc>/reference/NOrMAL_nucleosome_ranges.html</loc>
-  </url>
-  <url>
-    <loc>/reference/NucPosSimulator_nucleosome_positions.html</loc>
-  </url>
-  <url>
-    <loc>/reference/NucPosSimulator_nucleosome_ranges.html</loc>
-  </url>
-  <url>
-    <loc>/reference/PING_nucleosome_positions.html</loc>
-  </url>
-  <url>
-    <loc>/reference/PING_nucleosome_ranges.html</loc>
-  </url>
-  <url>
-    <loc>/reference/consensusSeekeR-package.html</loc>
-  </url>
-  <url>
-    <loc>/reference/findConsensusPeakRegions.html</loc>
-  </url>
-  <url>
-    <loc>/reference/findConsensusPeakRegionsForOneChrom.html</loc>
-  </url>
-  <url>
-    <loc>/reference/findConsensusPeakRegionsValidation.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/isInteger.html</loc>
-  </url>
-  <url>
-    <loc>/reference/readNarrowPeakFile.html</loc>
-  </url>
-  <url>
-    <loc>/reference/refineRegion.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>/404.html</loc></url>
+<url><loc>/articles/consensusSeekeR.html</loc></url>
+<url><loc>/articles/index.html</loc></url>
+<url><loc>/authors.html</loc></url>
+<url><loc>/index.html</loc></url>
+<url><loc>/reference/A549_CTCF_MYJ_NarrowPeaks_partial.html</loc></url>
+<url><loc>/reference/A549_CTCF_MYJ_Peaks_partial.html</loc></url>
+<url><loc>/reference/A549_CTCF_MYN_NarrowPeaks_partial.html</loc></url>
+<url><loc>/reference/A549_CTCF_MYN_Peaks_partial.html</loc></url>
+<url><loc>/reference/A549_FOSL2_01_NarrowPeaks_partial.html</loc></url>
+<url><loc>/reference/A549_FOSL2_01_Peaks_partial.html</loc></url>
+<url><loc>/reference/A549_FOXA1_01_NarrowPeaks_partial.html</loc></url>
+<url><loc>/reference/A549_FOXA1_01_Peaks_partial.html</loc></url>
+<url><loc>/reference/A549_NR3C1_CFQ_NarrowPeaks_partial.html</loc></url>
+<url><loc>/reference/A549_NR3C1_CFQ_Peaks_partial.html</loc></url>
+<url><loc>/reference/A549_NR3C1_CFR_NarrowPeaks_partial.html</loc></url>
+<url><loc>/reference/A549_NR3C1_CFR_Peaks_partial.html</loc></url>
+<url><loc>/reference/A549_NR3C1_CFS_NarrowPeaks_partial.html</loc></url>
+<url><loc>/reference/A549_NR3C1_CFS_Peaks_partial.html</loc></url>
+<url><loc>/reference/NOrMAL_nucleosome_positions.html</loc></url>
+<url><loc>/reference/NOrMAL_nucleosome_ranges.html</loc></url>
+<url><loc>/reference/NucPosSimulator_nucleosome_positions.html</loc></url>
+<url><loc>/reference/NucPosSimulator_nucleosome_ranges.html</loc></url>
+<url><loc>/reference/PING_nucleosome_positions.html</loc></url>
+<url><loc>/reference/PING_nucleosome_ranges.html</loc></url>
+<url><loc>/reference/consensusSeekeR-package.html</loc></url>
+<url><loc>/reference/findConsensusPeakRegions.html</loc></url>
+<url><loc>/reference/findConsensusPeakRegionsForOneChrom.html</loc></url>
+<url><loc>/reference/findConsensusPeakRegionsValidation.html</loc></url>
+<url><loc>/reference/index.html</loc></url>
+<url><loc>/reference/isInteger.html</loc></url>
+<url><loc>/reference/readNarrowPeakFile.html</loc></url>
+<url><loc>/reference/refineRegion.html</loc></url>
 </urlset>
+
