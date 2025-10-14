@@ -77,9 +77,9 @@ experimental nucleosome positioning maps. Bioinformatics 29 (19): 2380-86.
 }
 \seealso{
 \itemize{
-\item \code{\link{NucPosSimulator_nucleosome_positions}} { the associate
+    \item{\code{\link{NucPosSimulator_nucleosome_positions}} the associate
 genomic positions dataset.}
-\item \code{\link{findConsensusPeakRegions}} {for extracting regions
+    \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 sharing nucleosomes from more than one experiment.}
 }
 }

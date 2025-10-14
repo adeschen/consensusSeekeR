@@ -68,9 +68,9 @@ of DNA elements in the human genome. Nature. 2012 Sep 6;489(7414):57-74.
 }
 \seealso{
 \itemize{
-\item \code{\link{A549_FOXA1_01_Peaks_partial}} { the associate
+    \item{\code{\link{A549_FOXA1_01_Peaks_partial}} the associate
 sites dataset.}
-\item \code{\link{findConsensusPeakRegions}} {for extracting regions
+    \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 sharing the same features in more than one experiment.}
 }
 }

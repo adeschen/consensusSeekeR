@@ -78,9 +78,9 @@ next-generation sequencing data. Bioinformatics 29 (16): 2049-50.
 }
 \seealso{
 \itemize{
-\item \code{\link{PING_nucleosome_positions}} { the associate
+    \item{\code{\link{PING_nucleosome_positions}} the associate
 genomic positions dataset.}
-\item \code{\link{findConsensusPeakRegions}} {for extracting regions
+    \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 sharing nucleosomes from more than one experiment.}
 }
 }

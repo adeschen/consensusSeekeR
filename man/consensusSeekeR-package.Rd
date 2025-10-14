@@ -15,9 +15,9 @@ detected to mark a potential region as a consensus peak region.
 }
 \seealso{
 \itemize{
-\item \code{\link{readNarrowPeakFile}} {for extracting regions and peaks
+    \item{\code{\link{readNarrowPeakFile}} for extracting regions and peaks
 from a narrowPeak file.}
-\item \code{\link{findConsensusPeakRegions}} { for extracting regions
+    \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 sharing the same features in more than one experiment. }
 }
 }

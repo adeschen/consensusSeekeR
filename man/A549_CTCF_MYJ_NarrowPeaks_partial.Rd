@@ -71,10 +71,10 @@ of DNA elements in the human genome. Nature. 2012 Sep 6;489(7414):57-74.
 }
 \seealso{
 \itemize{
-\item \code{\link{A549_CTCF_MYJ_Peaks_partial}} { the associate
+    \item{\code{\link{A549_CTCF_MYJ_Peaks_partial}} the associate
 genomic peaks dataset.}
-\item \code{\link{findConsensusPeakRegions}} {for extracting regions
+    \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 sharing the same features in more than one experiment.}
-}A549_CTCF_MYJ_NarrowPeaks_partial
+}
 }
 \keyword{datasets}

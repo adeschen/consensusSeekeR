@@ -46,4 +46,4 @@ VignetteBuilder: knitr
 NeedsCompilation: no
 biocViews: BiologicalQuestion, ChIPSeq, Genetics, MultipleComparison,
     Transcription, PeakDetection, Sequencing, Coverage
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3

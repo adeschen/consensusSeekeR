@@ -6,8 +6,6 @@
 #' adjustable as well as the number of experiments in which a peak must be
 #' detected to mark a potential region as a consensus peak region.
 #'
-#' @docType package
-#'
 #' @name consensusSeekeR-package
 #'
 #' @aliases consensusSeekeR-package consensusSeekeR
@@ -22,15 +20,16 @@
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{readNarrowPeakFile}} {for extracting regions and peaks
+#'     \item{\code{\link{readNarrowPeakFile}} for extracting regions and peaks
 #' from a narrowPeak file.}
-#' \item \code{\link{findConsensusPeakRegions}} { for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment. }
 #' }
 #'
 #' @encoding UTF-8
 #' @keywords package
-NULL
+"_PACKAGE"
+
 
 #' Genomic regions with the greatest evidence of transcription factor binding
 #' for the FOSL2 transcription factor (for demonstration purpose)
@@ -61,9 +60,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_FOSL2_01_Peaks_partial}} { the associate
+#'     \item{\code{\link{A549_FOSL2_01_Peaks_partial}} the associate
 #' sites dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #'
@@ -216,9 +215,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_FOXA1_01_Peaks_partial}} { the associate
+#'     \item{\code{\link{A549_FOXA1_01_Peaks_partial}} the associate
 #' sites dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #'
@@ -263,6 +262,7 @@ NULL
 #'
 NULL
 
+
 #' Sites with the greatest evidence of transcription factor binding
 #' for the FOXA1 transcription factor (for demonstration purpose)
 #'
@@ -292,9 +292,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_FOXA1_01_NarrowPeaks_partial}} { the associate
+#'     \item{\code{\link{A549_FOXA1_01_NarrowPeaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #' @keywords datasets
@@ -341,6 +341,7 @@ NULL
 #'
 NULL
 
+
 #' Sites with the greatest evidence of transcription factor binding
 #' for the CTCF transcription factor (for demonstration purpose)
 #'
@@ -369,11 +370,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_CTCF_MYJ_Peaks_partial}} { the associate
+#'     \item{\code{\link{A549_CTCF_MYJ_Peaks_partial}} the associate
 #' genomic peaks dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
-#' }A549_CTCF_MYJ_NarrowPeaks_partial
+#' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -447,9 +449,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_CTCF_MYJ_NarrowPeaks_partial}} { the associate
+#'     \item{\code{\link{A549_CTCF_MYJ_NarrowPeaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #' @keywords datasets
@@ -525,9 +527,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_CTCF_MYN_Peaks_partial}} { the associate
+#'     \item{\code{\link{A549_CTCF_MYN_Peaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #' @keywords datasets
@@ -603,9 +605,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_CTCF_MYN_NarrowPeaks_partial}} { the associate
+#'     \item{\code{\link{A549_CTCF_MYN_NarrowPeaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #' @keywords datasets
@@ -687,11 +689,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_NR3C1_CFQ_NarrowPeaks_partial}} { the associate
+#'     \item{\code{\link{A549_NR3C1_CFQ_NarrowPeaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -779,11 +782,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_NR3C1_CFQ_Peaks_partial}} { the associate
+#'     \item{\code{\link{A549_NR3C1_CFQ_Peaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -863,11 +867,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_NR3C1_CFR_NarrowPeaks_partial}} { the associate
+#'     \item{\code{\link{A549_NR3C1_CFR_NarrowPeaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -947,9 +952,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_NR3C1_CFR_Peaks_partial}} { the associate
+#'     \item{\code{\link{A549_NR3C1_CFR_Peaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #' @keywords datasets
@@ -1030,11 +1035,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_NR3C1_CFS_NarrowPeaks_partial}} { the associate
+#'     \item{\code{\link{A549_NR3C1_CFS_NarrowPeaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -1109,9 +1115,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_NR3C1_CFS_Peaks_partial}} { the associate
+#'     \item{\code{\link{A549_NR3C1_CFS_Peaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #' @keywords datasets
@@ -1185,11 +1191,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{PING_nucleosome_positions}} { the associate
+#'     \item{\code{\link{PING_nucleosome_positions}} the associate
 #' genomic positions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing nucleosomes from more than one experiment.}
 #' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -1355,9 +1362,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{NOrMAL_nucleosome_positions}} { the associate
+#'     \item{\code{\link{NOrMAL_nucleosome_positions}} the associate
 #' genomic positions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing nucleosomes from more than one experiment.}
 #' }
 #' @keywords datasets
@@ -1439,11 +1446,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{NOrMAL_nucleosome_ranges}} { the associate
+#'     \item{\code{\link{NOrMAL_nucleosome_ranges}} the associate
 #' genomic ranges dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing nucleosomes from more than one experiment.}
 #' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -1526,11 +1534,12 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{NucPosSimulator_nucleosome_positions}} { the associate
+#'     \item{\code{\link{NucPosSimulator_nucleosome_positions}} the associate
 #' genomic positions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing nucleosomes from more than one experiment.}
 #' }
+#'
 #' @keywords datasets
 #'
 #' @examples
@@ -1610,9 +1619,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{NucPosSimulator_nucleosome_ranges}} { the associate
+#'     \item{\code{\link{NucPosSimulator_nucleosome_ranges}} the associate
 #' genomic ranges dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing nucleosomes from more than one experiment.}
 #' }
 #' @keywords datasets

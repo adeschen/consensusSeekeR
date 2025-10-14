@@ -78,9 +78,9 @@ model. Bioinformatics 28 (12): 242-49.
 }
 \seealso{
 \itemize{
-\item \code{\link{NOrMAL_nucleosome_ranges}} { the associate
+    \item{\code{\link{NOrMAL_nucleosome_ranges}} the associate
 genomic ranges dataset.}
-\item \code{\link{findConsensusPeakRegions}} {for extracting regions
+    \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 sharing nucleosomes from more than one experiment.}
 }
 }
