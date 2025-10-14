@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-      - devel
+      - master
   pull_request:
     branches:
-      - devel
+      - master
 
 name: test-coverage
 
