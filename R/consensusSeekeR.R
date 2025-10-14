@@ -139,9 +139,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{A549_FOSL2_01_NarrowPeaks_partial}} { the associate
+#'     \item{\code{\link{A549_FOSL2_01_NarrowPeaks_partial}} the associate
 #' genomic regions dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing the same features in more than one experiment.}
 #' }
 #' @keywords datasets
@@ -1277,9 +1277,9 @@ NULL
 #'
 #' @seealso
 #' \itemize{
-#' \item \code{\link{PING_nucleosome_ranges}} { the associate
+#'     \item{\code{\link{PING_nucleosome_ranges}} the associate
 #' genomic ranges dataset.}
-#' \item \code{\link{findConsensusPeakRegions}} {for extracting regions
+#'     \item{\code{\link{findConsensusPeakRegions}} for extracting regions
 #' sharing nucleosomes from more than one experiment.}
 #' }
 #' @keywords datasets
