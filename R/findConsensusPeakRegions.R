@@ -82,7 +82,7 @@
 #' consensus regions.
 #' }
 #'
-#' @import BiocGenerics IRanges GenomeInfoDb GenomicRanges
+#' @import BiocGenerics IRanges Seqinfo GenomicRanges
 #' @importFrom stringr str_split
 #' @importFrom BiocParallel bplapply SnowParam SerialParam
 #' multicoreWorkers bpmapply

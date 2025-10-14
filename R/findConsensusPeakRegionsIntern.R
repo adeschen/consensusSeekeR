@@ -75,7 +75,7 @@
 #'     nbrThreads = 1)
 #'
 #' @author Astrid Deschênes
-#' @import GenomeInfoDb
+#' @import Seqinfo
 #' @importFrom methods is
 #' @encoding UTF-8
 #' @keywords internal
@@ -247,7 +247,7 @@ isInteger <- function(value) {
 #' @return an object of \code{class} "commonFeatures".
 #'
 #' @author Astrid Deschênes
-#' @import BiocGenerics IRanges GenomeInfoDb GenomicRanges
+#' @import BiocGenerics IRanges Seqinfo GenomicRanges
 #' @importFrom stringr str_split
 #' @encoding UTF-8
 #' @keywords internal
